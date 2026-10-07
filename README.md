@@ -12,7 +12,7 @@ Official Hypixel SkyBlock resource-pack assets supplied in `SkyblockPack.zip`, p
 
 ## Using the assets in Hex Online
 
-Copy the required assets into the website's static build directory. This repository is private, so public browsers cannot load its GitHub raw URLs directly. Repository access credentials must stay in the build environment.
+Copy the required assets into the website's static build directory and pin the source commit for consistent builds. This public repository also supports GitHub raw asset URLs; pin a commit rather than loading a moving branch.
 
 Resolve an item's `item_model` from Hypixel's item resource through `web/item-icons.json` → `byItemModel`. `byItemIdCandidate` provides filename-based convenience keys; match against game metadata before treating a candidate as an exact item ID. Models requiring additional rendering stay marked instead of receiving a fabricated icon.
 
